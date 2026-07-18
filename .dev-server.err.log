@@ -1,0 +1,167 @@
+[2mDefault inspector port 9229 not available, using 9230 instead
+[22m
+[2m11:05:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /app/_sites-preview/SkeletonPreview.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m11:05:46 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /app/_sites-preview/preview.css. This could be due to syntax errors or importing non-existent modules. (see errors above)
+Detected multiple renderers concurrently rendering the same context provider. This is currently unsupported.
+Detected multiple renderers concurrently rendering the same context provider. This is currently unsupported.
+[2m11:05:49 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m11:05:49 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m11:05:49 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Cannot read properties of null (reading 'useMemo')
+    at exports.useMemo (http://localhost:3001/node_modules/.vite/deps/react.js?v=bcd92159:736:30)
+    at CanvasImpl (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:10941:15)
+    at Object.react_stack_bottom_frame (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:12868:12)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:4213:19)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:5569:16)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:6140:20)
+    at runWithFiberInDEV (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:851:66)
+    at performUnitOfWork (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8429:92)
+    at workLoopSync (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8325:37)
+    at renderRootSync (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8309:6)
+[2m11:05:49 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in a React component:
+
+    at CanvasImpl (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:10940:23)
+    at m (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:9161:9)
+    at Canvas (<anonymous>)
+    at SolarScene (<anonymous>)
+    at div (<anonymous>)
+    at section (<anonymous>)
+    at div (<anonymous>)
+    at main (<anonymous>)
+    at SimulationProvider (http://localhost:3001/contexts/SimulationContext.tsx:8:38)
+    at SolarSystemLab (<anonymous>)
+    at Home [Server] (<anonymous>)
+    at AwaitAppRenderDependencies [Server] (<anonymous>)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at LayoutSegmentProvider (http://localhost:3001/node_modules/vinext/dist/shims/layout-segment-context.js?v=febede99:32:34)
+    at RedirectErrorBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:56:3)
+    at RedirectBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:86:29)
+    at Children (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:64:17)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout [Server] (<anonymous>)
+    at default (about://React/Server/C:/Users/nctko/OneDrive/Documents/space/app/layout.tsx?10:65:26)
+    at default (about://React/Server/C:/Users/nctko/OneDrive/Documents/space/app/layout.tsx?10:65:26)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at LayoutSegmentProvider (http://localhost:3001/node_modules/vinext/dist/shims/layout-segment-context.js?v=febede99:32:34)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at NavigationCommitSignal (http://localhost:3001/node_modules/vinext/dist/server/app-browser-navigation-controller.js?v=febede99:184:36)
+    at RedirectErrorBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:56:3)
+    at RedirectBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:86:29)
+    at DevRecoveryBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:268:3)
+    at BrowserRoot (http://localhost:3001/node_modules/vinext/dist/server/app-browser-entry.js?v=febede99:209:24)
+[2m11:05:54 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: undefined[39m
+  
+[2m11:08:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m11:08:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m11:08:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Cannot read properties of null (reading 'useMemo')
+    at exports.useMemo (http://localhost:3001/node_modules/.vite/deps/react.js?v=bcd92159:736:30)
+    at CanvasImpl (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:10941:15)
+    at Object.react_stack_bottom_frame (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:12868:12)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:4213:19)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:5569:16)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:6140:20)
+    at runWithFiberInDEV (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:851:66)
+    at performUnitOfWork (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8429:92)
+    at workLoopSync (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8325:37)
+    at renderRootSync (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8309:6)
+[2m11:08:32 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in a React component:
+
+    at CanvasImpl (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:10940:23)
+    at m (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:9161:9)
+    at Canvas (<anonymous>)
+    at SolarScene (<anonymous>)
+    at div (<anonymous>)
+    at section (<anonymous>)
+    at div (<anonymous>)
+    at main (<anonymous>)
+    at SimulationProvider (http://localhost:3001/contexts/SimulationContext.tsx:8:38)
+    at SolarSystemLab (<anonymous>)
+    at Home [Server] (<anonymous>)
+    at AwaitAppRenderDependencies [Server] (<anonymous>)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at LayoutSegmentProvider (http://localhost:3001/node_modules/vinext/dist/shims/layout-segment-context.js?v=febede99:32:34)
+    at RedirectErrorBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:56:3)
+    at RedirectBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:86:29)
+    at Children (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:64:17)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout [Server] (<anonymous>)
+    at default (about://React/Server/C:/Users/nctko/OneDrive/Documents/space/app/layout.tsx?10:65:26)
+    at default (about://React/Server/C:/Users/nctko/OneDrive/Documents/space/app/layout.tsx?10:65:26)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at LayoutSegmentProvider (http://localhost:3001/node_modules/vinext/dist/shims/layout-segment-context.js?v=febede99:32:34)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at NavigationCommitSignal (http://localhost:3001/node_modules/vinext/dist/server/app-browser-navigation-controller.js?v=febede99:184:36)
+    at RedirectErrorBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:56:3)
+    at RedirectBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:86:29)
+    at DevRecoveryBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:268:3)
+    at BrowserRoot (http://localhost:3001/node_modules/vinext/dist/server/app-browser-entry.js?v=febede99:209:24)
+[2m11:11:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m11:11:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m11:11:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mTypeError: Cannot read properties of null (reading 'useMemo')
+    at exports.useMemo (http://localhost:3001/node_modules/.vite/deps/react.js?v=bcd92159:736:30)
+    at CanvasImpl (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:10941:15)
+    at Object.react_stack_bottom_frame (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:12868:12)
+    at renderWithHooks (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:4213:19)
+    at updateFunctionComponent (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:5569:16)
+    at beginWork (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:6140:20)
+    at runWithFiberInDEV (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:851:66)
+    at performUnitOfWork (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8429:92)
+    at workLoopSync (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8325:37)
+    at renderRootSync (http://localhost:3001/node_modules/.vite/deps/react-dom_client.js?v=febede99:8309:6)
+[2m11:11:00 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mThe above error occurred in a React component:
+
+    at CanvasImpl (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:10940:23)
+    at m (http://localhost:3001/node_modules/.vite/deps/react-three-fiber.esm-CdpzYTY3.js?v=bcd92159:9161:9)
+    at Canvas (<anonymous>)
+    at SolarScene (<anonymous>)
+    at div (<anonymous>)
+    at section (<anonymous>)
+    at div (<anonymous>)
+    at main (<anonymous>)
+    at SimulationProvider (http://localhost:3001/contexts/SimulationContext.tsx:8:38)
+    at SolarSystemLab (<anonymous>)
+    at Home [Server] (<anonymous>)
+    at AwaitAppRenderDependencies [Server] (<anonymous>)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at LayoutSegmentProvider (http://localhost:3001/node_modules/vinext/dist/shims/layout-segment-context.js?v=febede99:32:34)
+    at RedirectErrorBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:56:3)
+    at RedirectBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:86:29)
+    at Children (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:64:17)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout [Server] (<anonymous>)
+    at default (about://React/Server/C:/Users/nctko/OneDrive/Documents/space/app/layout.tsx?16:94:26)
+    at default (about://React/Server/C:/Users/nctko/OneDrive/Documents/space/app/layout.tsx?16:94:26)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at LayoutSegmentProvider (http://localhost:3001/node_modules/vinext/dist/shims/layout-segment-context.js?v=febede99:32:34)
+    at Slot (http://localhost:3001/node_modules/vinext/dist/shims/slot.js?v=febede99:42:17)
+    at NavigationCommitSignal (http://localhost:3001/node_modules/vinext/dist/server/app-browser-navigation-controller.js?v=febede99:184:36)
+    at RedirectErrorBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:56:3)
+    at RedirectBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:86:29)
+    at DevRecoveryBoundary (http://localhost:3001/node_modules/vinext/dist/shims/error-boundary.js?v=febede99:268:3)
+    at BrowserRoot (http://localhost:3001/node_modules/vinext/dist/server/app-browser-entry.js?v=febede99:209:24)
